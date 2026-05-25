@@ -1,0 +1,11 @@
+[package]
+name = "engine_render_2d"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+engine_math = { path = "../engine_math" }
+engine_render = { path = "../engine_render" }
+engine_render_gl = { path = "../engine_render_gl" }
+glam = "0.30"
+glow = "0.16"

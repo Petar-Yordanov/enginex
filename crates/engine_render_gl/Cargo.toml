@@ -1,0 +1,11 @@
+[package]
+name = "engine_render_gl"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bytemuck = "1.23"
+engine_render = { path = "../engine_render" }
+glam = "0.30"
+glow = "0.16"
+image = { version = "0.25", default-features = false, features = ["png"] }

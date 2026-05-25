@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/engine_math",
+    "crates/engine_render",
+    "crates/engine_render_gl",
+    "crates/engine_render_2d",
+    "crates/sandbox",
+]
